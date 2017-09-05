@@ -6,11 +6,11 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Cookies & Sessions</h1>
+		<h1>Main page</h1>
 		<div class="row">
 			<div class="col">
 				
-				Mano vardas yra <?= $vardas; ?>
+				Sveiki, <?= $vardas; ?> (<a class="btn btn-sm btn-dark" href="?logout=true">Logout</a>)
 			</div>
 		</div>
 	</div>
